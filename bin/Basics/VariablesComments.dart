@@ -67,4 +67,10 @@ void main() {
 
   varDynamic = true;
   print(varDynamic);
+
+  // Final and const
+  final valFinal = 'final is like a cache variable and unchangeble';
+  const valConst = 'Const is a permanent variable and unchangeble';
+  print(valFinal);
+  print(valConst);
 }
